@@ -4,12 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            column-count: 4; 
+            /* -webkit-column-count: 3;
+            -moz-column-count: 3; 
+            -ms-column-count: 3; 
+            -o-column-count: 3; */
+
+            vertical-align:text-top;
+
+            max-height:100px;
+        }
+        /* div {
+            position: fixed;
+            left: 30px;
+            border: 3px solid #73AD21;
+        } */
+    </style>
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <img src="../Images/Books/A Suitable Boy.jpg" alt="">
-        <a href="https://archive.org/details/hereticsgilbert00chesuoft/page/ii/mode/2up?ref=ol&view=theater">Heretics</a>
+    <div class="container">
+        <div>
+            <img src="../Images/Books/The Jungle.jpg" alt="The Jungle by Upton Sinclair" style="height: 350px; width: auto;"><br>
+            <a href="https://archive.org/details/thejungle00sincuoft/mode/2up?ref=ol&view=theater"><button type="button">Read</button></a>
+        </div>
+        <div data-slick-index="2">
+            <img src="../Images/Books/The Jungle.jpg" alt="The Jungle by Upton Sinclair" style="height: 300px; width: auto;"><br>
+            <a href="https://archive.org/details/thejungle00sincuoft/mode/2up?ref=ol&view=theater"><button type="button">Read</button></a>
+        </div>
     </div>
 </body>
 </html>
