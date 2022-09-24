@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Lato;
+    src: url("../Misc/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url("../Misc/Lobster-Regular.ttf");
+}
+
+.grid   {
+    display: grid;
+    grid-gap: 16px;
+    padding: 16px;
+
+    /* @media (min-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 960px)   {
+        grid-template-columns: repeat(3, 1fr);
+    } */
+
+    @media (min-width: 1280px)   {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.grid .cols   {
+    width: 268px;
+    background-color: #f6ebf4;
+    height: 350px;
+    border: solid #482673 2px;
+    border-radius: 10px;
+}
+
+.covers {
+    display: block;
+    height: 250px;
+    width: auto;
+    margin: auto;
+    margin-top: 5px;
+}
