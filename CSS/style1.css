@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Lato;
+    src: url("../Misc/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url("../Misc/Lobster-Regular.ttf");
+}
+
+body   {
+    background-color: #F6EBF4;
+}
+
+ul  {
+    list-style-type: none;
+    margin-right: 75px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+li  {
+    float: right;
+    margin-right: 10px;
+}
+
+li #sign_top    {
+    font-family: Lato;
+    background-color: #482673;
+    border: solid #482673;
+    border-width: 2px;
+    border-radius: 5px;
+    color: #F6EBF4;
+    padding: 8px 0px;
+    width: 75px;
+    text-align: center;
+    cursor: pointer;
+}
+
+li #reg_top {
+    font-family: Lato;
+    background-color: #F6EBF4;
+    border: solid #482673;
+    border-width: 2px;
+    border-radius: 5px;
+    color: #482673;
+    padding: 8px 0px;
+    width: 75px;
+    text-align: center;
+    cursor: pointer;
+}
+
+hr  {
+    height: 2px;
+    width: 100%;
+    background-color: #ed0b70;
+}
+
+#logo   {
+    max-width: 150px;
+    max-height: 150px;
+    width: auto/9;
+    height: auto;
+}
+
+#logo img   {
+    display: block;
+    max-width: 75%;
+    margin: auto;
+}
