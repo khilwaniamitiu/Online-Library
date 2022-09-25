@@ -34,10 +34,34 @@
 
         .covers {
             display: block;
+            max-width: 200px;
             height: 250px;
             width: auto;
             margin: auto;
-            margin-top: 5px;
+            margin-top: 10px;
+            border: solid #023b59 1px;
+        }
+
+        .read   {
+            display: block;
+            background-color: #ed0b70;
+            width: fit-content;
+            border-radius: 5px;
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            margin: auto;
+        }
+        a:hover {
+            background-color: #d50b66;
+        }
+
+        .title  {
+            font-family: Lato;
+            font-size: medium;
+            font-weight: bold;
+            text-align: center;
+            margin: 10px;
         }
     }
 }

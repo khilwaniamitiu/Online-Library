@@ -35,8 +35,32 @@
 }
 .grid .cols .covers {
   display: block;
+  max-width: 200px;
   height: 250px;
   width: auto;
   margin: auto;
-  margin-top: 5px;
+  margin-top: 10px;
+  border: solid #023b59 1px;
+}
+.grid .cols .read {
+  display: block;
+  background-color: #ed0b70;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  margin: auto;
+}
+.grid .cols a:hover {
+  background-color: #d50b66;
+}
+.grid .cols .title {
+  font-family: Lato;
+  font-size: medium;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
 }/*# sourceMappingURL=home_style.css.map */
