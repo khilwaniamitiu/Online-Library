@@ -79,11 +79,14 @@ hr  {
 
 #logo img   {
     display: block;
-    max-width: 75%;
+    max-width: 53%;
     margin: auto;
 }
 
 h1  {
     font-family: Lobster;
-    font-size: 7vw;
+    font-size: 80px;
+    position: absolute;
+    left: 153px;
+    top: 15px;
 }
