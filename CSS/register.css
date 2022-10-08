@@ -51,6 +51,8 @@ form {
 .input_error    {
     margin-top: 2px;
     display: block;
+    position: relative;
+    transform: translateY(185px);
     text-align: center;
     font-size: 14px;
     color: red;

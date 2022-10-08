@@ -14,24 +14,23 @@
             <div class="input_error" id="fname_error"></div>
         </div>
         <div class="register">
-            <input type="text" placeholder="Last name" id="lname">
+            <input type="text" placeholder="Last name" id="lname" onkeyup="validatelName()">
             <div class="input_error" id="lname_error"></div>
         </div>
         <div class="register">
-            <input type="text" placeholder="Username" id="uname">
+            <input type="text" placeholder="Username" id="uname" onkeyup="validateuName()">
             <div class="input_error" id="uname_error"></div>
         </div>
         <div class="register">
-            <input type="password" placeholder="Password" id="pword">
+            <input type="password" placeholder="Password" id="pword" onkeyup="validatePass()">
             <div class="input_error" id="pword_error"></div>
         </div>
         <div class="register">
-            <label for="pword"></label>
-            <input type="password" name="pword" placeholder="Confirm Password">
-            <div class="input_error"></div>
+            <input type="password" placeholder="Confirm Password" id="confp" onkeyup="confirmPass()">
+            <div class="input_error" id="confp_error"></div>
         </div>
         <div class="register"> 
-            <input type="email" placeholder="E-Mail" id="email">
+            <input type="email" placeholder="E-Mail" id="email" id="email" onkeyup="validateEmail()">
             <div class="input_error" id="email_error"></div>
         </div>
         <a href="sign_in.html" id="reg">Register</a>    
