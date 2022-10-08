@@ -15,7 +15,7 @@ form {
 
 .register input{
     left: 20px;
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 20px;
     display: block;
     width: 311px;
