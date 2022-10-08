@@ -1,3 +1,12 @@
+@font-face {
+    font-family: Lato;
+    src: url("../Misc/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url("../Misc/Lobster-Regular.ttf");
+}
 form {
     display: block;
     margin-top: 0em;
@@ -7,12 +16,31 @@ form {
 .register input{
     left: 20px;
     text-align: center;
+    margin-bottom: 20px;
     display: block;
-    width: 500px;
-    padding: 2px;
-    border: 3px solid black;
+    width: 311px;
+    padding: 9px;
+    border: 2px solid #482673;
+    margin: 15px auto;
+    font-size: 25px;
+    border-radius: 7px;
+    background-color: floralwhite;
+    font-family: Lato;
+}
+#button input{
+    text-align: center;
+    display: block;
+    width: 165px;
+    padding: 12px;
+    border: 0px solid #482673;
     margin: 11px auto;
     font-size: 25px;
     border-radius: 10px;
-    background-color: floralwhite;
+    background-color: #ED0B70;
+    color: #F6EBF4;
+    font-family: Lato;
+    text-decoration: none;
+}
+#reg {
+    text-decoration: none;
 }
