@@ -58,3 +58,21 @@ form {
     color: red;
     font-family: Lato;
 }
+#navbar ul {
+    display: flex;
+    font-family: Lato;
+}
+
+ #navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    /* color: white; */
+    display: block;
+    padding: 220px 193px;
+    border-radius: 20px;
+    text-decoration: none;
+} 
+

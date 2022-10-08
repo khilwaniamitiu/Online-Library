@@ -64,3 +64,20 @@
   text-align: center;
   margin: 10px;
 }/*# sourceMappingURL=home_style.css.map */
+#navbar ul {
+  display: flex;
+  font-family: Lato;
+}
+
+#navbar ul li {
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+#navbar ul li a {
+  /* color: white; */
+  display: block;
+  padding: 75px 193px;
+  border-radius: 20px;
+  text-decoration: none;
+} 
