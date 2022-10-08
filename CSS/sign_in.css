@@ -7,37 +7,35 @@
     font-family: Lobster;
     src: url("../Misc/Lobster-Regular.ttf");
 }
+
 form {
     display: block;
     margin-top: 0em;
     margin-block-end: 1em;
 }
 
-.register input{
+.signin input {
     left: 20px;
     text-align: center;
-    position: relative;
-    transform: translateY(185px);
     display: block;
-    width: 310px;
-    padding: 10px;
+    position: relative;
+    transform: translateY(245px);
+    width: 311px;
+    padding: 9px;
     border: 2px solid #482673;
-    margin: 0px auto;
+    margin: 8px auto;
     font-size: 25px;
     border-radius: 7px;
     background-color: floralwhite;
     font-family: Lato;
 }
-.register   {
-    margin: 8px;
-}
-#reg {
+#sign {
     text-align: center;
     display: block;
     position: relative;
-    transform: translateY(185px);
+    transform: translateY(250px);
+    left: 20px;
     width: 165px;
-    left: 25px;
     padding: 12px;
     border: 0px solid #482673;
     margin: 11px auto;
@@ -47,12 +45,4 @@ form {
     color: #F6EBF4;
     font-family: Lato;
     text-decoration: none;
-}
-.input_error    {
-    margin-top: 2px;
-    display: block;
-    text-align: center;
-    font-size: 14px;
-    color: red;
-    font-family: Lato;
 }
