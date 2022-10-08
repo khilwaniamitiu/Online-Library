@@ -8,34 +8,30 @@
     <link rel="stylesheet" href="../CSS/register.css">
 </head>
 <body>
-    <form  action="">
+    <form  action="" id="signup">
         <div class="register">
-            <label for="fname"></label>
-            <input type="text" name="fname" placeholder="First name">
-            <div class="input_error"></div>
+            <input type="text" placeholder="First name" id="fname" onkeyup="validatefName()">
+            <div class="input_error" id="fname_error"></div>
         </div>
         <div class="register">
-            <label for="lname"></label>
-            <input type="text" name="lname" placeholder="Last name">
-            <div class="input_error"></div>
+            <input type="text" placeholder="Last name" id="lname">
+            <div class="input_error" id="lname_error"></div>
         </div>
         <div class="register">
-            <label for="uname"></label>
-            <input type="text" name="uname" placeholder="Username">
-            <div class="input_error"></div>
+            <input type="text" placeholder="Username" id="uname">
+            <div class="input_error" id="uname_error"></div>
         </div>
         <div class="register">
-            <label for="pword"></label>
-            <input type="password" name="pword" placeholder="Password">
-            <div class="input_error"></div>
+            <input type="password" placeholder="Password" id="pword">
+            <div class="input_error" id="pword_error"></div>
         </div>
         <div class="register"> 
-            <label for="email"></label>
-            <input type="email" name="email" placeholder="E-Mail">
-            <div class="input_error"></div>
+            <input type="email" placeholder="E-Mail" id="email">
+            <div class="input_error" id="email_error"></div>
         </div>
         <a href="sign_in.html" id="reg">Register</a>    
     </form>
+    <script src="../JS/main.js"></script>
     
 </body>
 </html>

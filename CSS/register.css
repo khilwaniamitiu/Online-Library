@@ -18,14 +18,17 @@ form {
     text-align: center;
     margin-bottom: 20px;
     display: block;
-    width: 311px;
-    padding: 9px;
+    width: 310px;
+    padding: 10px;
     border: 2px solid #482673;
-    margin: 8px auto;
+    margin: 0px auto;
     font-size: 25px;
     border-radius: 7px;
     background-color: floralwhite;
     font-family: Lato;
+}
+.register   {
+    margin: 8px;
 }
 #reg {
     text-align: center;
@@ -42,6 +45,7 @@ form {
     text-decoration: none;
 }
 .input_error    {
+    margin-top: 2px;
     display: block;
     text-align: center;
     font-size: 14px;
