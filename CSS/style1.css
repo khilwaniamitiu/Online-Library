@@ -92,18 +92,21 @@ h1  {
 }
 #navbar ul {
     display: flex;
+    margin-top: 250px;
     font-family: Lato;
+    float: right;
 }
 
  #navbar ul li {
     list-style: none;
+    width: 200px;
     font-size: 1.3rem;
+    float: left;
 }
 
 #navbar ul li a {
     display: block;
-    list-style-position: inside;
-    padding: 500px 180px;
+    padding: 5px 25px;
     border-radius: 20px;
     text-decoration: none;
 } 
@@ -113,17 +116,17 @@ h1  {
     height: 100px;
     cursor: pointer;
 }
+
 #logoo {
     float: left;
     max-width: 150px;
-    margin-top: -580px;
+    margin-top: -300px;
     max-height: 150px;
     width: auto/9;
     height: auto;
 }
-
 #logoo img   {
     display: block;
     max-width: 53%;
-    margin: auto;
+    margin-top: 515px;
 }

@@ -17,7 +17,7 @@ form {
     left: 20px;
     text-align: center;
     position: relative;
-    transform: translateY(185px);
+    /* transform: translateY(185px); */
     display: block;
     width: 310px;
     padding: 10px;
@@ -35,7 +35,7 @@ form {
     text-align: center;
     display: block;
     position: relative;
-    transform: translateY(185px);
+    /* transform: translateY(185px); */
     width: 165px;
     left: 25px;
     padding: 12px;
@@ -52,7 +52,7 @@ form {
     margin-top: 2px;
     display: block;
     position: relative;
-    transform: translateY(185px);
+    /* transform: translateY(185px); */
     text-align: center;
     font-size: 14px;
     color: red;
@@ -60,32 +60,40 @@ form {
 }
 #navbar ul {
     display: flex;
+    /* margin-top: 250px; */
     font-family: Lato;
+    float: right;
+    background-color: #023b59;
 }
 
  #navbar ul li {
     list-style: none;
+    width: 200px;
     font-size: 1.3rem;
+    float: left;
 }
 
 #navbar ul li a {
-    /* color: white; */
     display: block;
-    padding: 220px 193px;
+    padding: 5px 25px;
     border-radius: 20px;
     text-decoration: none;
+    margin-top: 7px;
+    color: white;
 } 
 #logoo_title {
     max-width: 100%;
     max-height: 150px;
     height: 100px;
     cursor: pointer;
+    background-color: #023b59;
+    border-radius: 10px;
 }
 
 #logoo {
     float: left;
     max-width: 150px;
-    margin-top: -300px;
+    /* margin-top: -300px; */
     max-height: 150px;
     width: auto/9;
     height: auto;
@@ -93,6 +101,8 @@ form {
 #logoo img   {
     display: block;
     max-width: 53%;
-    margin: auto;
+    margin-left: 30px;
+    margin-top: 7px;
+    /* margin-top: 515px; */
 }
 
