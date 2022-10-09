@@ -10,11 +10,11 @@
 <body>
     <form  action="" id="signup">
         <div class="register">
-            <input type="text" placeholder="First name" id="fname" onkeyup="validatefName()">
+            <input type="text" placeholder="First Name" id="fname" onkeyup="validatefName()">
             <div class="input_error" id="fname_error"></div>
         </div>
         <div class="register">
-            <input type="text" placeholder="Last name" id="lname" onkeyup="validatelName()">
+            <input type="text" placeholder="Last Name" id="lname" onkeyup="validatelName()">
             <div class="input_error" id="lname_error"></div>
         </div>
         <div class="register">
@@ -33,7 +33,8 @@
             <input type="email" placeholder="E-Mail" id="email" id="email" onkeyup="validateEmail()">
             <div class="input_error" id="email_error"></div>
         </div>
-        <a href="sign_in.html" id="reg">Register</a>    
+        <a href="sign_in.html" id="reg" onclick="validateForm()">Register</a>    
+        <div class="input_error" id="subm_error"></div>
     </form>
     <script src="../JS/main.js"></script>
     <footer>
