@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign In</title>
     <link rel="stylesheet" href="../CSS/sign_in.css">
 </head>
 <body>
     <form action="">
         <div class="signin">
             <label for="username"></label>
-            <input type="text" name="username" placeholder="Enter Your Username">
+            <input type="text" name="username" id="uname" placeholder="Enter Your Username" onkeyup="validUser()">
         </div>
         <div class="signin">
             <label for="password"></label>
-            <input type="password" name="password" placeholder="Enter Your Password">
+            <input type="password" name="password" id="pass" placeholder="Enter Your Password" onkeyup="validPass()">
+            <div id="err"></div>
         </div>
-        <a href="home.html" id="sign">Sign In</a>
+        <a href="#" id="sign" onclick="valid()">Sign In</a>
     </form>
+    <script src="../JS/sign.js"></script>
     <footer>
         <nav id="navbar">
             <ul>

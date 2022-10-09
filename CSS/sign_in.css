@@ -93,3 +93,9 @@ form {
     margin-top: 7px;
     /* margin-top: 515px; */
 }
+#err    {
+    font-size: 14px;
+    color: red;
+    text-align: center;
+    font-family: Lato;
+}

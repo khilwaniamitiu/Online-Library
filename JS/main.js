@@ -86,8 +86,6 @@ function confirmPass() {
     confp_error.innerHTML = null;
 
     if (pword != confp) {
-        console.log(pword);
-        console.log(confp);
         confp_error.innerHTML = "Passwords Do Not Match";
         return false;
     }
@@ -114,7 +112,10 @@ function validateEmail()    {
 function validateForm() {
     subm_error.innerHTML = null;
     if (!validatefName() || !validatelName() || !validateuName() || !validatePass() || !validateEmail())    {
+        subm_error.style.display = 'block';
         subm_error.innerHTML = "Please Validate Form";
+        setTimeout(function(){subm_error.style.display = 'none';}, 3000);
         return false;
     }
+    location.href = "../Templates/sign_in.html";
 }
