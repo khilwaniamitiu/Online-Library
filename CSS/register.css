@@ -13,6 +13,11 @@ form {
     margin-block-end: 1em;
 }
 
+body    {
+    background: url('../Images/bg2.jpg');
+    background-repeat: no-repeat;
+}
+
 .register input{
     left: 20px;
     text-align: center;

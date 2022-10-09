@@ -10,6 +10,9 @@
 
 body   {
     background-color: #F6EBF4;
+    background: url('../Images/bg1.jpg');
+    background-repeat: no-repeat;
+    /* background-size: 95%; */
 }
 
 ul  {
