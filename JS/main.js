@@ -4,7 +4,7 @@ var uname_error = document.getElementById('uname_error');
 var email_error = document.getElementById('email_error');
 var pword_error = document.getElementById('pword_error');
 var confp_error = document.getElementById('confp_error');
-
+var subm_error = document.getElementById('subm_error');
 
 function validatefName() {
     var fname = document.getElementById('fname').value;
@@ -96,6 +96,25 @@ function confirmPass() {
 
 function validateEmail()    {
     var email = document.getElementById('email').value;
-    email_error = null;
+    email_error.innerHTML = null;
     
+    if (email.length == 0)  {
+        email_error.innerHTML = "Email Cannot Be Blank";
+        return false;
+    }
+
+    if (!email.match(/^[A-Za-z][A-Za-z0-9_.]*[@]{1}[A-Za-z]*[.]{1}[a-z]{2,4}$/))    {
+        email_error.innerHTML = "Invalid Email";
+        return false;
+    }
+
+    return true;
+}
+
+function validateForm() {
+    subm_error.innerHTML = null;
+    if (!validatefName() || !validatelName() || !validateuName() || !validatePass() || !validateEmail())    {
+        subm_error.innerHTML = "Please Validate Form";
+        return false;
+    }
 }
