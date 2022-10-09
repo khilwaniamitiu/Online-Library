@@ -17,10 +17,11 @@ form {
 body    {
     background: url('../Images/bg2.jpg');
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .signin input {
-    left: 20px;
     text-align: center;
     display: block;
     position: relative;
@@ -38,8 +39,6 @@ body    {
     text-align: center;
     display: block;
     position: relative;
-    /* transform: translateY(250px); */
-    left: 20px;
     width: 165px;
     padding: 12px;
     border: 0px solid #482673;
@@ -103,4 +102,133 @@ body    {
     color: red;
     text-align: center;
     font-family: Lato;
+}
+
+@media (max-width: 768px) {
+    /* ul  {
+        margin-right: 15px;
+    } */
+    body    {
+        background-size: 500%;
+    }
+    .signin input {
+        width: 210px;
+        font-size: 17px;
+    }
+    #logoo  {
+        max-width: 100px;
+    }
+    #logoo img  {
+        max-width: 50%;
+        margin-left: 5px;
+    }
+    #logo img  {
+        max-width: 30%;
+        margin-left: 20px;
+    }
+    /* h1  {
+        font-size: 45px;
+        left: 90px;
+        top: 44px;
+    } */
+    #navbar ul li   {
+        font-size: 0.7rem;
+        width: 70px;
+    }
+    #logoo_title    {
+        height: 65px;
+    }
+}
+@media (min-width: 768px) {
+    /* ul  {
+        margin-right: 25px;
+    } */
+    .signin input {
+        width: 310px;
+        font-size: 25px;
+    }
+    #logoo  {
+        max-width: 150px;
+    }
+    #logoo img  {
+        max-width: 40%;
+        margin-left: 20px;
+    }
+    #logo img  {
+        max-width: 40%;
+        margin-left: 30px;
+    }
+    /* h1  {
+        font-size: 60px;
+        left: 120px;
+        top: 32px;
+    } */
+    #navbar ul li   {
+        font-size: 1.0rem;
+        width: 150px;
+    }
+    #logoo_title    {
+        height: 80px;
+    }
+}
+@media (min-width: 960px) {
+    /* ul  {
+        margin-right: 50px;
+    } */
+    .signin input {
+        width: 310px;
+        font-size: 25px;
+    }
+    #logoo  {
+        max-width: 150px;
+    }
+    #logoo img  {
+        max-width: 53%;
+        margin-left: auto;
+    }
+    #logo img  {
+        max-width: 53%;
+        margin-left: auto;
+    }
+    /* h1  {
+        font-size: 80px;
+        left: 153px;
+        top: 15px;
+    } */
+    #navbar ul li   {
+        font-size: 1.3rem;
+        width: 200px;
+    }
+    #logoo_title    {
+        height: 100px;
+    }
+}
+@media (min-width: 1280px) {
+    .signin input {
+        width: 310px;
+        font-size: 25px;
+    }
+    #logoo  {
+        max-width: 150px;
+    }
+    #logoo img  {
+        max-width: 53%;
+        margin-left: auto;
+    }
+    #logo img  {
+        max-width: 53%;
+        margin-left: auto;
+    }
+    /* h1  {
+        font-size: 80px;
+        left: 153px;
+        top: 15px;
+    } */
+    #navbar ul li   {
+        font-size: 1.3rem;
+        width: 200px;
+    }
+    #logoo_title    {
+        height: 100px;
+    }
 }
