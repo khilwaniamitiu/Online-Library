@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +9,12 @@
     <link rel="shortcut icon" href="../Images/main_logo.png">
     <link rel="stylesheet" href="../CSS/style1.css">
 </head>
+
 <body>
     <ul>
-        <li><a href="../Templates/sign_in.html"><button id = "sign_top">Sign In</button></a></li>
-        <li><a href="../Templates/register.html"><button id = "reg_top">Register</button></a></li>
+        <li><a href="../Templates/sign_in.html"><button id="sign_top">Sign In</button></a></li>
+        <li><a href="../Templates/register.html"><button id="reg_top">Register</button></a></li>
     </ul>
-    <hr>
     <div id="logo_title">
         <div id="logo">
             <img src="../Images/main_logo.png">
@@ -22,12 +23,23 @@
             <h1>Readary</h1>
         </div>
     </div>
-    <footer>
+    <div id="desc">
+        <p>
+            Readary, an Online Library intends to make available on the Internet, free of charge, significant primary
+            materials from cultures around the world, including manuscripts, rare books, prints, and other
+            significant reading materials. <a href="register.html">Join</a> the community to explore more!
+        </p>
+        <div id="bgimg">
+            <img src="../Images/rightbg.png">
+        </div>
+    </div>
+    <br>
+    <footer id="footer">
         <nav id="navbar">
             <ul>
-                <li class="items"><a href="#">About Us</a></li>
-                <li class="items"><a href="#">Accessibility</a></li>
-                <li class="items"><a href="#">Contact Us</a></li>
+                <li class="items"><a onclick="about()">About</a></li>
+                <li class="items"><a onclick="access()">Accessibility</a></li>
+                <li class="items"><a onclick="contact()">Contact</a></li>
             </ul>
         </nav>
         <div id="logoo_title">
@@ -35,6 +47,18 @@
                 <img src="../Images/main_logo.png">
             </div>
         </div>
-        </footer>
+    </footer>
+    <script>
+        function about()    {
+            alert('Readary is an online library, where you can read various books!')
+        }
+        function access()   {
+            alert('We are committed to providing an environment that supports the information needs of all members of the community. We endeavor through our service, outreach, and collections to reflect and honor diverse perspectives, learning styles, and ways of knowing.')
+        }
+        function contact()  {
+            alert('Contact on +91 99840 69960')
+        }
+    </script>
 </body>
+
 </html>

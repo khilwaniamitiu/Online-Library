@@ -11,15 +11,58 @@ form {
     display: block;
     margin-top: 0em;
     margin-block-end: 1em;
+    padding: 75px;
 }
-
+a   {
+    cursor: pointer;
+}
 body    {
-    background: url('../Images/bg2.jpg');
+    background-color: #F6EBF4;
+    /* background: url('../Images/bg2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center; */
+    margin: 0;
+}
+#logo_title {
+    background-color: #482673;
+    /* max-width: 100%; */
+    display: flex;
+    width: 100%;
+    margin-top: 70px;
+    padding-top: 5px;
+    max-height: 150px;
+    height: 100px;
+    /* border-bottom: solid#ed0b70 2px;
+    border-top: solid#ed0b70 2px; */
 }
 
+#title  {
+    display: block;
+    color: #F6EBF4;
+    justify-content: center;
+    margin: auto;
+}
+
+#logo  {
+    float: right;
+    max-width: 150px;
+    max-height: 150px;
+    width: auto/9;
+    height: auto;
+}
+#logo img   {
+    display: block;
+    max-width: 53%;
+    margin: auto;
+}
+h1  {
+    font-family: Lobster;
+    font-size: 80px;
+    position: absolute;
+    left: 153px;
+    top: 15px;
+}
 .register input{
     text-align: center;
     position: relative;
@@ -92,7 +135,6 @@ body    {
     height: 100px;
     cursor: pointer;
     background-color: #023b59;
-    border-radius: 10px;
 }
 
 #logoo {
@@ -115,6 +157,11 @@ body    {
     /* ul  {
         margin-right: 15px;
     } */
+    #reg    {
+        font-size: 18px;
+        padding: 10px 5px;
+        width: 120px;
+    }
     .register input {
         width: 210px;
         font-size: 17px;
@@ -126,15 +173,18 @@ body    {
         max-width: 50%;
         margin-left: 5px;
     }
+    #logo_title {
+        height: 60px;
+    }
     #logo img  {
         max-width: 30%;
         margin-left: 20px;
     }
-    /* h1  {
+    h1  {
         font-size: 45px;
         left: 90px;
         top: 44px;
-    } */
+    }
     #navbar ul li   {
         font-size: 0.7rem;
         width: 70px;
@@ -147,6 +197,10 @@ body    {
     /* ul  {
         margin-right: 25px;
     } */
+    #reg    {
+        font-size: 20px;
+        width: 140px;
+    }
     .register input {
         width: 310px;
         font-size: 25px;
@@ -158,15 +212,18 @@ body    {
         max-width: 40%;
         margin-left: 20px;
     }
+    #logo_title {
+        height: 80px;
+    }
     #logo img  {
         max-width: 40%;
         margin-left: 30px;
     }
-    /* h1  {
+    h1  {
         font-size: 60px;
         left: 120px;
         top: 32px;
-    } */
+    }
     #navbar ul li   {
         font-size: 1.0rem;
         width: 150px;
@@ -179,6 +236,10 @@ body    {
     /* ul  {
         margin-right: 50px;
     } */
+    #reg    {
+        font-size: 25px;
+        width: 165px;
+    }
     .register input {
         width: 310px;
         font-size: 25px;
@@ -190,15 +251,18 @@ body    {
         max-width: 53%;
         margin-left: auto;
     }
+    #logo_title {
+        height: 100px;
+    }
     #logo img  {
         max-width: 53%;
         margin-left: auto;
     }
-    /* h1  {
+    h1  {
         font-size: 80px;
         left: 153px;
         top: 15px;
-    } */
+    }
     #navbar ul li   {
         font-size: 1.3rem;
         width: 200px;
@@ -208,6 +272,10 @@ body    {
     }
 }
 @media (min-width: 1280px) {
+    #reg    {
+        font-size: 25px;
+        width: 165px;
+    }
     .register input {
         width: 310px;
         font-size: 25px;
@@ -219,15 +287,18 @@ body    {
         max-width: 53%;
         margin-left: auto;
     }
+    #logo_title {
+        height: 100px;
+    }
     #logo img  {
         max-width: 53%;
         margin-left: auto;
     }
-    /* h1  {
+    h1  {
         font-size: 80px;
         left: 153px;
         top: 15px;
-    } */
+    }
     #navbar ul li   {
         font-size: 1.3rem;
         width: 200px;

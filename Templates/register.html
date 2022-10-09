@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>Register | Readary</title>
+    <link rel="shortcut icon" href="../Images/main_logo.png">
     <link rel="stylesheet" href="../CSS/register.css">
 </head>
+
 <body>
+    <div id="logo_title">
+        <div id="logo">
+            <img src="../Images/main_logo.png">
+        </div>
+        <div id="title">
+            <h1>Readary</h1>
+        </div>
+    </div>
     <form action="" id="signup">
         <div class="register">
             <input type="text" placeholder="First Name" id="fname" onkeyup="validatefName()">
@@ -29,27 +40,39 @@
             <input type="password" placeholder="Confirm Password" id="confp" onkeyup="confirmPass()">
             <div class="input_error" id="confp_error"></div>
         </div>
-        <div class="register"> 
+        <div class="register">
             <input type="email" placeholder="E-Mail" id="email" onkeyup="validateEmail()">
             <div class="input_error" id="email_error"></div>
         </div>
-        <a href="#" id="reg" onclick="validateForm()">Register</a>    
+        <a href="#" id="reg" onclick="validateForm()">Register</a>
         <div class="input_error" id="subm_error"></div>
     </form>
     <script src="../JS/main.js"></script>
     <footer>
-    <nav id="navbar">
-        <ul>
-            <li class="items"><a href="#">About Us</a></li>
-            <li class="items"><a href="#">Accessibility</a></li>
-            <li class="items"><a href="#">Contact Us</a></li>
-        </ul>
-    </nav>
+        <nav id="navbar">
+            <ul>
+                <li class="items"><a onclick="about()">About</a></li>
+                <li class="items"><a onclick="access()">Accessibility</a></li>
+                <li class="items"><a onclick="contact()">Contact</a></li>
+            </ul>
+        </nav>
     </footer>
-        <div id="logoo_title">
-            <div id="logoo">
-                <img src="../Images/main_logo.png">
-            </div>
+    <div id="logoo_title">
+        <div id="logoo">
+            <img src="../Images/main_logo.png">
         </div>
+    </div>
+    <script>
+        function about() {
+            alert('Readary is an online library, where you can read various books!')
+        }
+        function access() {
+            alert('We are committed to providing an environment that supports the information needs of all members of the community. We endeavor through our service, outreach, and collections to reflect and honor diverse perspectives, learning styles, and ways of knowing.')
+        }
+        function contact() {
+            alert('Contact on +91 99840 69960')
+        }
+    </script>
 </body>
+
 </html>
