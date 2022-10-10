@@ -138,7 +138,9 @@ h1  {
     text-decoration: none;
     margin-top: 7px;
     cursor: pointer;
-    color: white;
+    color: #F6EBF4;
+}   #navbar ul li a:hover  {
+    color: #46bfa6;
 } 
 #logoo_title {
     max-width: 100%;

@@ -11,14 +11,70 @@
 form {
     display: block;
     margin-top: 0em;
-    margin-block-end: 1em;
+    padding: 0px 50px;
 }
 
 body    {
-    background: url('../Images/bg2.jpg');
+    background-color: #F6EBF4;
+    /* background: url('../Images/bg2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center; */
+    margin: 0;
+}
+#logo_title {
+    background-color: #482673;
+    /* max-width: 100%; */
+    display: flex;
+    width: 100%;
+    margin-top: 70px;
+    padding-top: 5px;
+    max-height: 150px;
+    height: 100px;
+    /* border-bottom: solid#ed0b70 2px;
+    border-top: solid#ed0b70 2px; */
+}
+
+#title  {
+    display: block;
+    color: #F6EBF4;
+    justify-content: center;
+    margin: auto;
+}
+
+#logo  {
+    float: right;
+    max-width: 150px;
+    max-height: 150px;
+    width: auto/9;
+    height: auto;
+}
+#logo img   {
+    display: block;
+    max-width: 53%;
+    margin: auto;
+}
+h1  {
+    font-family: Lobster;
+    font-size: 80px;
+    position: absolute;
+    left: 153px;
+    top: 15px;
+}
+.text   {
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    margin-top: 150px;
+    font-family: Lobster;
+    color: #ED0B70;
+    text-align: center;
+}
+#reg   {
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: Lato;
+    margin-bottom: 150px;
 }
 
 .signin input {
@@ -61,6 +117,7 @@ body    {
  #navbar ul li {
     list-style: none;
     width: 200px;
+    text-align: center;
     font-size: 1.3rem;
     float: left;
 }
@@ -68,18 +125,18 @@ body    {
 #navbar ul li a {
     display: block;
     padding: 5px 25px;
-    border-radius: 20px;
     text-decoration: none;
+    cursor: pointer;
     margin-top: 7px;
-    color: white;
-} 
+    color: #F6EBF4;
+}   #navbar ul li a:hover  {
+    color: #46bfa6;
+}
 #logoo_title {
     max-width: 100%;
     max-height: 150px;
     height: 100px;
-    cursor: pointer;
     background-color: #023b59;
-    border-radius: 10px;
 }
 
 #logoo {
@@ -108,12 +165,24 @@ body    {
     /* ul  {
         margin-right: 15px;
     } */
+    .text   {
+        font-size: 22px;
+    }
+    #reg   {
+        font-size: 12px;
+    }
     body    {
         background-size: 500%;
     }
     .signin input {
-        width: 210px;
-        font-size: 17px;
+        width: 170px;
+        font-size: 15px;
+        padding: 7px;
+    }
+    #sign    {
+        font-size: 18px;
+        padding: 10px 5px;
+        width: 120px;
     }
     #logoo  {
         max-width: 100px;
@@ -126,11 +195,14 @@ body    {
         max-width: 30%;
         margin-left: 20px;
     }
-    /* h1  {
+    #logo_title {
+        height: 60px;
+    }
+    h1  {
         font-size: 45px;
         left: 90px;
         top: 44px;
-    } */
+    }
     #navbar ul li   {
         font-size: 0.7rem;
         width: 70px;
@@ -143,9 +215,20 @@ body    {
     /* ul  {
         margin-right: 25px;
     } */
+    .text   {
+        font-size: 30px;
+    }
+    #sign   {
+        font-size: 14px;
+    }
     .signin input {
-        width: 310px;
-        font-size: 25px;
+        width: 250px;
+        font-size: 20px;
+        padding: 10px;
+    }
+    #sign    {
+        font-size: 20px;
+        width: 140px;
     }
     #logoo  {
         max-width: 150px;
@@ -158,11 +241,14 @@ body    {
         max-width: 40%;
         margin-left: 30px;
     }
-    /* h1  {
+    h1  {
         font-size: 60px;
         left: 120px;
         top: 32px;
-    } */
+    }
+    #logo_title {
+        height: 80px;
+    }
     #navbar ul li   {
         font-size: 1.0rem;
         width: 150px;
@@ -175,9 +261,19 @@ body    {
     /* ul  {
         margin-right: 50px;
     } */
+    .text   {
+        font-size: 35px;
+    }
+    #sign   {
+        font-size: 17px;
+    }
     .signin input {
         width: 310px;
         font-size: 25px;
+    }
+    #sign    {
+        font-size: 25px;
+        width: 165px;
     }
     #logoo  {
         max-width: 150px;
@@ -190,11 +286,14 @@ body    {
         max-width: 53%;
         margin-left: auto;
     }
-    /* h1  {
+    #logo_title {
+        height: 100px;
+    }
+    h1  {
         font-size: 80px;
         left: 153px;
         top: 15px;
-    } */
+    }
     #navbar ul li   {
         font-size: 1.3rem;
         width: 200px;
@@ -204,9 +303,19 @@ body    {
     }
 }
 @media (min-width: 1280px) {
+    .text   {
+        font-size: 25px;
+    }
+    #sign   {
+        font-size: 17px;
+    }
     .signin input {
         width: 310px;
         font-size: 25px;
+    }
+    #sign    {
+        font-size: 25px;
+        width: 165px;
     }
     #logoo  {
         max-width: 150px;
@@ -219,11 +328,14 @@ body    {
         max-width: 53%;
         margin-left: auto;
     }
-    /* h1  {
+    #logo_title {
+        height: 100px;
+    }
+    h1  {
         font-size: 80px;
         left: 153px;
         top: 15px;
-    } */
+    }
     #navbar ul li   {
         font-size: 1.3rem;
         width: 200px;

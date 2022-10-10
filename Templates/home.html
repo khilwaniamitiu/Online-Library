@@ -9,6 +9,14 @@
     <link rel="shortcut icon" href="../Images/main_logo.png">
 </head>
 <body>
+    <div id="logo_title">
+        <div id="logo">
+            <img src="../Images/main_logo.png">
+        </div>
+        <div id="title">
+            <h1>Readary</h1>
+        </div>
+    </div>
     <div class="grid">
         <div class="cols">
             <img src="../Images/Books/A Stable for Nightmares.jpg" alt="Cover: A Stable for Nightmares" class="covers">
@@ -204,9 +212,9 @@
     <footer>
         <nav id="navbar">
             <ul>
-                <li class="items"><a href="#">About Us</a></li>
-                <li class="items"><a href="#">Accessibility</a></li>
-                <li class="items"><a href="#">Contact Us</a></li>
+                <li class="items"><a onclick="about()">About</a></li>
+                <li class="items"><a onclick="access()">Accessibility</a></li>
+                <li class="items"><a onclick="contact()">Contact</a></li>
             </ul>
         </nav>
         <div id="logoo_title">
@@ -215,6 +223,17 @@
             </div>
         </div>
         </footer>
+        <script>
+            function about()    {
+                alert('Readary is an online library, where you can read various books!')
+            }
+            function access()   {
+                alert('We are committed to providing an environment that supports the information needs of all members of the community. We endeavor through our service, outreach, and collections to reflect and honor diverse perspectives, learning styles, and ways of knowing.')
+            }
+            function contact()  {
+                alert('Contact on +91 99840 69960')
+            }
+        </script>
     </body>
 </body>
 </html>
