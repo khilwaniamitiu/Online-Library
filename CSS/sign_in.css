@@ -14,7 +14,7 @@ form {
     padding: 0px 50px;
 }
 
-body    {
+body {
     background-color: #F6EBF4;
     /* background: url('../Images/bg2.jpg');
     background-repeat: no-repeat;
@@ -22,6 +22,7 @@ body    {
     background-position: center; */
     margin: 0;
 }
+
 #logo_title {
     background-color: #482673;
     /* max-width: 100%; */
@@ -35,33 +36,36 @@ body    {
     border-top: solid#ed0b70 2px; */
 }
 
-#title  {
+#title {
     display: block;
     color: #F6EBF4;
     justify-content: center;
     margin: auto;
 }
 
-#logo  {
+#logo {
     float: right;
     max-width: 150px;
     max-height: 150px;
     width: auto/9;
     height: auto;
 }
-#logo img   {
+
+#logo img {
     display: block;
     max-width: 53%;
     margin: auto;
 }
-h1  {
+
+h1 {
     font-family: Lobster;
     font-size: 80px;
     position: absolute;
     left: 153px;
     top: 15px;
 }
-.text   {
+
+.text {
     display: block;
     width: 100%;
     margin: 20px auto;
@@ -70,7 +74,8 @@ h1  {
     color: #ED0B70;
     text-align: center;
 }
-#reg   {
+
+#reg {
     margin-top: 10px;
     font-size: 17px;
     font-family: Lato;
@@ -91,6 +96,7 @@ h1  {
     background-color: floralwhite;
     font-family: Lato;
 }
+
 #sign {
     text-align: center;
     display: block;
@@ -106,6 +112,7 @@ h1  {
     font-family: Lato;
     text-decoration: none;
 }
+
 #navbar ul {
     display: flex;
     /* margin-top: 250px; */
@@ -114,7 +121,7 @@ h1  {
     background-color: #023b59;
 }
 
- #navbar ul li {
+#navbar ul li {
     list-style: none;
     width: 200px;
     text-align: center;
@@ -129,9 +136,12 @@ h1  {
     cursor: pointer;
     margin-top: 7px;
     color: #F6EBF4;
-}   #navbar ul li a:hover  {
+}
+
+#navbar ul li a:hover {
     color: #46bfa6;
 }
+
 #logoo_title {
     max-width: 100%;
     max-height: 150px;
@@ -147,14 +157,16 @@ h1  {
     width: auto/9;
     height: auto;
 }
-#logoo img   {
+
+#logoo img {
     display: block;
     max-width: 53%;
     margin-left: 30px;
     margin-top: 7px;
     /* margin-top: 515px; */
 }
-#err    {
+
+#err {
     font-size: 14px;
     color: red;
     text-align: center;
@@ -162,185 +174,232 @@ h1  {
 }
 
 @media (max-width: 768px) {
+
     /* ul  {
         margin-right: 15px;
     } */
-    .text   {
+    .text {
         font-size: 22px;
     }
-    #reg   {
+
+    #reg {
         font-size: 12px;
     }
-    body    {
+
+    body {
         background-size: 500%;
     }
+
     .signin input {
         width: 170px;
         font-size: 15px;
         padding: 7px;
     }
-    #sign    {
+
+    #sign {
         font-size: 18px;
         padding: 10px 5px;
         width: 120px;
     }
-    #logoo  {
+
+    #logoo {
         max-width: 100px;
     }
-    #logoo img  {
+
+    #logoo img {
         max-width: 50%;
         margin-left: 5px;
     }
-    #logo img  {
+
+    #logo img {
         max-width: 30%;
         margin-left: 20px;
     }
+
     #logo_title {
         height: 60px;
     }
-    h1  {
+
+    h1 {
         font-size: 45px;
         left: 90px;
         top: 44px;
     }
-    #navbar ul li   {
+
+    #navbar ul li {
         font-size: 0.7rem;
         width: 70px;
     }
-    #logoo_title    {
+
+    #logoo_title {
         height: 65px;
     }
 }
+
 @media (min-width: 768px) {
+
     /* ul  {
         margin-right: 25px;
     } */
-    .text   {
+    .text {
         font-size: 30px;
     }
-    #sign   {
+
+    #sign {
         font-size: 14px;
     }
+
     .signin input {
         width: 250px;
         font-size: 20px;
         padding: 10px;
     }
-    #sign    {
+
+    #sign {
         font-size: 20px;
         width: 140px;
     }
-    #logoo  {
+
+    #logoo {
         max-width: 150px;
     }
-    #logoo img  {
+
+    #logoo img {
         max-width: 40%;
         margin-left: 20px;
     }
-    #logo img  {
+
+    #logo img {
         max-width: 40%;
         margin-left: 30px;
     }
-    h1  {
+
+    h1 {
         font-size: 60px;
         left: 120px;
         top: 32px;
     }
+
     #logo_title {
         height: 80px;
     }
-    #navbar ul li   {
+
+    #navbar ul li {
         font-size: 1.0rem;
         width: 150px;
     }
-    #logoo_title    {
+
+    #logoo_title {
         height: 80px;
     }
 }
+
 @media (min-width: 960px) {
+
     /* ul  {
         margin-right: 50px;
     } */
-    .text   {
+    .text {
         font-size: 35px;
     }
-    #sign   {
+
+    #sign {
         font-size: 17px;
     }
+
     .signin input {
         width: 310px;
         font-size: 25px;
     }
-    #sign    {
+
+    #sign {
         font-size: 25px;
         width: 165px;
     }
-    #logoo  {
+
+    #logoo {
         max-width: 150px;
     }
-    #logoo img  {
+
+    #logoo img {
         max-width: 53%;
         margin-left: auto;
     }
-    #logo img  {
+
+    #logo img {
         max-width: 53%;
         margin-left: auto;
     }
+
     #logo_title {
         height: 100px;
     }
-    h1  {
+
+    h1 {
         font-size: 80px;
         left: 153px;
         top: 15px;
     }
-    #navbar ul li   {
+
+    #navbar ul li {
         font-size: 1.3rem;
         width: 200px;
     }
-    #logoo_title    {
+
+    #logoo_title {
         height: 100px;
     }
 }
+
 @media (min-width: 1280px) {
-    .text   {
+    .text {
         font-size: 25px;
     }
-    #sign   {
+
+    #sign {
         font-size: 17px;
     }
+
     .signin input {
         width: 310px;
         font-size: 25px;
     }
-    #sign    {
+
+    #sign {
         font-size: 25px;
         width: 165px;
     }
-    #logoo  {
+
+    #logoo {
         max-width: 150px;
     }
-    #logoo img  {
+
+    #logoo img {
         max-width: 53%;
         margin-left: auto;
     }
-    #logo img  {
+
+    #logo img {
         max-width: 53%;
         margin-left: auto;
     }
+
     #logo_title {
         height: 100px;
     }
-    h1  {
+
+    h1 {
         font-size: 80px;
         left: 153px;
         top: 15px;
     }
-    #navbar ul li   {
+
+    #navbar ul li {
         font-size: 1.3rem;
         width: 200px;
     }
-    #logoo_title    {
+
+    #logoo_title {
         height: 100px;
     }
 }

@@ -7,23 +7,25 @@
     font-family: Lobster;
     src: url("../Misc/Lobster-Regular.ttf");
 }
-body   {
+
+body {
     background-color: #F6EBF4;
     margin: 0px;
 }
-ul  {
+
+ul {
     list-style-type: none;
     margin-right: 75px;
     padding: 0px;
     overflow: hidden;
 }
 
-li  {
+li {
     float: right;
     margin-right: 10px;
 }
 
-li #sign_top    {
+li #sign_top {
     font-family: Lato;
     background-color: #482673;
     border: solid #482673;
@@ -59,31 +61,33 @@ li #reg_top {
     border-top: solid#ed0b70 2px;
 }
 
-#title  {
+#title {
     display: flex;
     justify-content: center;
     margin: auto;
 }
 
-#logo  {
+#logo {
     float: left;
     max-width: 150px;
     max-height: 150px;
     width: auto/9;
     height: auto;
 }
-#logo img   {
+
+#logo img {
     display: block;
     max-width: 53%;
     margin: auto;
 }
 
-#desc   {
+#desc {
     height: 500px;
     width: 100%;
     display: flex;
 }
-#desc p     {
+
+#desc p {
     display: block;
     float: left;
     font-size: 2rem;
@@ -91,30 +95,35 @@ li #reg_top {
     margin: auto auto;
     width: 50%;
 }
+
 #desc a {
     text-decoration: none;
     color: #ed0b70;
 }
-#bgimg  {
+
+#bgimg {
     overflow: hidden;
 }
-#bgimg img  {
+
+#bgimg img {
     display: block;
     float: right;
     height: 500px;
 }
 
 
-h1  {
+h1 {
     font-family: Lobster;
     font-size: 80px;
     position: absolute;
     left: 153px;
     top: 15px;
 }
+
 #footer {
     width: 100%;
 }
+
 #navbar ul {
     display: flex;
     /* margin-top: 250px; */
@@ -139,9 +148,12 @@ h1  {
     margin-top: 7px;
     cursor: pointer;
     color: #F6EBF4;
-}   #navbar ul li a:hover  {
+}
+
+#navbar ul li a:hover {
     color: #46bfa6;
-} 
+}
+
 #logoo_title {
     max-width: 100%;
     max-height: 150px;
@@ -159,7 +171,8 @@ h1  {
     width: auto/9;
     height: auto;
 }
-#logoo img   {
+
+#logoo img {
     display: block;
     max-width: 53%;
     margin-left: 30px;
@@ -169,172 +182,215 @@ h1  {
 
 
 @media (max-width: 768px) {
-    ul  {
+    ul {
         margin-right: 15px;
     }
-    #logoo  {
+
+    #logoo {
         max-width: 100px;
     }
-    #logoo img  {
+
+    #logoo img {
         max-width: 50%;
         margin-left: 5px;
     }
-    #logo img  {
+
+    #logo img {
         max-width: 30%;
         margin-left: 20px;
     }
-    #bgimg img  {
+
+    #bgimg img {
         width: 318px;
         margin-right: -150px;
     }
-    #desc   {
+
+    #desc {
         height: 100%;
     }
-    #desc p     {
+
+    #desc p {
         font-size: 0.8rem;
         margin: auto auto;
         padding: 5px;
     }
-    h1  {
+
+    h1 {
         font-size: 45px;
         left: 90px;
         top: 44px;
     }
-    #navbar ul li   {
+
+    #navbar ul li {
         font-size: 0.7rem;
         width: 70px;
     }
-    #logo_title    {
+
+    #logo_title {
         height: 65px;
     }
-    #logoo_title    {
+
+    #logoo_title {
         height: 65px;
     }
 }
+
 @media (min-width: 768px) {
-    #bgimg img  {
+    #bgimg img {
         width: 400px;
         margin-right: -150px;
     }
-    #desc   {
+
+    #desc {
         height: 100%;
     }
-    #desc p     {
+
+    #desc p {
         font-size: 1.5rem;
         margin: auto auto;
         padding: 5px;
     }
-    ul  {
+
+    ul {
         margin-right: 25px;
     }
-    #logoo  {
+
+    #logoo {
         max-width: 150px;
     }
-    #logoo img  {
+
+    #logoo img {
         max-width: 40%;
         margin-left: 20px;
     }
-    #logo img  {
+
+    #logo img {
         max-width: 40%;
         margin-left: 30px;
     }
-    h1  {
+
+    h1 {
         font-size: 60px;
         left: 120px;
         top: 32px;
     }
-    #navbar ul li   {
+
+    #navbar ul li {
         font-size: 1.0rem;
         width: 150px;
     }
-    #logo_title    {
+
+    #logo_title {
         height: 90px;
     }
-    #logoo_title    {
+
+    #logoo_title {
         height: 80px;
     }
 }
+
 @media (min-width: 960px) {
-    #bgimg img  {
+    #bgimg img {
         width: auto;
     }
-    #desc   {
+
+    #desc {
         height: 100%;
     }
-    #desc p     {
+
+    #desc p {
         font-size: 2rem;
         margin: auto auto;
         padding: 5px;
     }
-    ul  {
+
+    ul {
         margin-right: 50px;
     }
-    #logoo  {
+
+    #logoo {
         max-width: 150px;
     }
-    #logoo img  {
+
+    #logoo img {
         max-width: 53%;
         margin-left: auto;
     }
-    #logo img  {
+
+    #logo img {
         max-width: 53%;
         margin-left: auto;
     }
-    h1  {
+
+    h1 {
         font-size: 80px;
         left: 153px;
         top: 15px;
     }
-    #navbar ul li   {
+
+    #navbar ul li {
         font-size: 1.3rem;
         width: 200px;
     }
-    #logo_title    {
+
+    #logo_title {
         height: 100px;
     }
-    #logoo_title    {
+
+    #logoo_title {
         height: 100px;
     }
 }
+
 @media (min-width: 1280px) {
-    #bgimg img  {
+    #bgimg img {
         width: auto;
     }
-    #desc   {
+
+    #desc {
         height: 100%;
     }
-    #desc p     {
+
+    #desc p {
         font-size: 2rem;
         margin: auto auto;
         padding: 5px;
     }
-    ul  {
+
+    ul {
         margin-right: 75px;
     }
-    #logoo  {
+
+    #logoo {
         max-width: 150px;
     }
-    #logoo img  {
+
+    #logoo img {
         max-width: 53%;
         margin-left: auto;
     }
-    #logo img  {
+
+    #logo img {
         max-width: 53%;
         margin-left: auto;
     }
-    h1  {
+
+    h1 {
         font-size: 80px;
         left: 153px;
         top: 15px;
     }
-    #navbar ul li   {
+
+    #navbar ul li {
         font-size: 1.3rem;
         width: 200px;
     }
-    #logo_title    {
+
+    #logo_title {
         height: 100px;
     }
-    #logoo_title    {
+
+    #logoo_title {
         height: 100px;
     }
 }
